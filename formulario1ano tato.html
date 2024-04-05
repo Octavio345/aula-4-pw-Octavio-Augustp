@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+   <body>
+    
+            <!-- o FORM serve para começar o fomulario, e sempre dentro do body -->
+    <form> 
+            <!-- H2 serve para colocar o titulo e o H4 um titulo menor -->
+            <h2>Cadastra-se</h2>
+            <h4>Complete o formulario</h4>
+                <!-- as tegs BR são para pular Linha -->
+             Nome <br> <input type="text" name="Nome"><br>
+             <!-- o INPUT serve para a entrada de dados -->
+
+            Sobrenome <br><input type="text" name="Sobrenome"><br>
+
+             Email <br><input type="text" name="Email"><br><br>
+             <!-- os BR juntos pulam 2 linhas -->
+                   
+             <!-- a teg STRONG serve para deixar em negrito -->
+
+             <strong>  De qual parte da aplicação você desnvolve </strong> <br>
+               <!-- o type RADIO e para escolher uma opção -->
+               <input type="radio" name="Front-end" value="Front-end" > Front-end <br>
+               <input type="radio" name="Back-end" value="Back-end" > Back-end <br>
+               <input type="radio" name="FullStack" value="FullStack" > FullStack <br><br>
+                          
+             <strong> Senioridade </strong> <br>
+               <select name="Senioridade">
+              <!-- o SELECT serve para escolher uma opção numa lista muito grande -->
+
+                <option value="Junior">Junior</option> <br>
+                <!-- o OPTION  cria opções que só aparecem quando clicadas na teg Senioridade -->
+                 <option value="Pleno">Pleno</option> <br>
+                 <option value="Senior">Senior</option> <br><br>
+
+             </select> <br><br>
+
+             <strong> Selecione as tecnologias que você utiliza: </strong> <br>
+              <!-- o CHECKBOX serve para colocar mais de uma opção e tambem deixa o simbolo quadrado -->
+              <input type="checkbox" name="tecnologias"> HTML <br>
+              <input type="checkbox" name="tecnologias"> CSS <br>
+              <input type="checkbox" name="tecnologias"> Javascript <br>
+              <input type="checkbox" name="tecnologias"> PHP <br>
+              <input type="checkbox" name="tecnologias"> C# <br>
+              <input type="checkbox" name="tecnologias"> Python <br>
+              <input type="checkbox" name="tecnologias"> Java <br><br>
+
+           <strong>Conte um pouco de sua experência: </strong> <br>
+            <!-- o TEXTAREA abre uma caixa de texto para a pessoa escrever -->
+            <textarea></textarea><br>
+
+             <input type="submit" name="Concluido">
+
+    </form>
+</body>
+</html>
